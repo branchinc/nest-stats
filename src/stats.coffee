@@ -40,5 +40,5 @@ class StatsClient
     if process.env.DEBUG
       if value then console.log(stat, value) else console.log(stat)
 
-module.exports = StatsClient
 
+module.exports = StatsClient
