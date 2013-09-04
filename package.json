@@ -1,0 +1,36 @@
+{
+  "name": "nest-stats",
+  "version": "0.0.1",
+  "description": "A javascript library for use with Branch nest projects. Includes a stats library that pushes to stathat.",
+  "keywords": [
+    "functional",
+    "utility",
+    "stats"
+  ],
+  "homepage": "https://github.com/branchinc/nest-stats",
+  "author": {
+    "name": "Hursh Agrawal"
+  },
+  "main": "./lib/stats.js",
+  "directories": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/branchinc/nest-stats.git"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {},
+  "readme": "A javascript library for use with Branch nest projects. Includes a stats library that pushes to stathat.",
+  "bugs": {
+    "url": "https://github.com/branchinc/nest-stats/issues"
+  },
+  "_id": "nest-stats@0.0.1",
+  "_from": "nest-stats@",
+  "dependencies": {
+    "q": "~0.9.7"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  }
+}
