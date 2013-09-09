@@ -9,13 +9,13 @@ class StatsClient
 
   incr: (stat) ->
     if @env == 'production'
-      stathat.trackEZCount(@stathatEmail, stat, 1, ->)
+      @stathat.trackEZCount(@stathatEmail, stat, 1, ->)
     else
       @debug(stat)
 
   value: (stat, value) ->
     if @env == 'production'
-      stathat.trackEZValue(@stathatEmail, stat, value, ->)
+      @stathat.trackEZValue(@stathatEmail, stat, value, ->)
     else if @env == 'development'
       @debug(stat, value)
 
